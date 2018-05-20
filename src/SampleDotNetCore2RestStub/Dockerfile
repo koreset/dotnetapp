@@ -1,6 +1,8 @@
 FROM microsoft/aspnetcore-build:2.0 AS build-env
 WORKDIR /app
 
+USER 1005
+
 # Copy everything else and build
 COPY . ./
 RUN dotnet publish -c Release -o out

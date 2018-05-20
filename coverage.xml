@@ -1,6 +1,6 @@
 <?xml-stylesheet type='text/xsl' href='coverage.xsl'?>
 <coverage profilerVersion="0" driverVersion="0" startTime="9999-12-31T23:59:59.9999999" measureTime="0001-01-01T00:00:00.0000000">
-  <module moduleId="84ffb4a3-7254-4e6e-839c-16487b5b8ab3" name="SampleDotNetCore2RestStub" assembly="SampleDotNetCore2RestStub" assemblyIdentity="SampleDotNetCore2RestStub">
+  <module moduleId="45edb482-c5bc-4c0a-9bf2-4bfc9ccc7af8" name="SampleDotNetCore2RestStub" assembly="SampleDotNetCore2RestStub" assemblyIdentity="SampleDotNetCore2RestStub">
     <method name="get_Version" class="SampleDotNetCore2RestStub.AppConfig" excluded="false" instrumented="true" fullname="System.String SampleDotNetCore2RestStub.AppConfig::get_Version()">
       <seqpnt visitcount="0" line="5" column="33" endline="5" endcolumn="37" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/AppConfig.cs" />
     </method>
@@ -13,18 +13,18 @@
       <seqpnt visitcount="0" line="16" column="17" endline="16" endcolumn="70" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Attributes/AuthenticationFilterAttribute.cs" />
     </method>
     <method name=".ctor" class="SampleDotNetCore2RestStub.Controllers.PersonController" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Controllers.PersonController::.ctor(SampleDotNetCore2RestStub.Repositories.IPersonRepository)">
-      <seqpnt visitcount="6" line="13" column="9" endline="13" endcolumn="68" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
-      <seqpnt visitcount="6" line="15" column="13" endline="15" endcolumn="50" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
+      <seqpnt visitcount="9" line="13" column="9" endline="13" endcolumn="68" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
+      <seqpnt visitcount="9" line="15" column="13" endline="15" endcolumn="50" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
     </method>
     <method name="GetPerson" class="SampleDotNetCore2RestStub.Controllers.PersonController" excluded="false" instrumented="true" fullname="SampleDotNetCore2RestStub.Models.Person SampleDotNetCore2RestStub.Controllers.PersonController::GetPerson(System.Int32)">
-      <seqpnt visitcount="4" line="21" column="13" endline="21" endcolumn="50" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
+      <seqpnt visitcount="6" line="21" column="13" endline="21" endcolumn="50" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
     </method>
     <method name="RemovePerson" class="SampleDotNetCore2RestStub.Controllers.PersonController" excluded="false" instrumented="true" fullname="System.String SampleDotNetCore2RestStub.Controllers.PersonController::RemovePerson()">
       <seqpnt visitcount="0" line="27" column="13" endline="27" endcolumn="40" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
       <seqpnt visitcount="0" line="28" column="13" endline="28" endcolumn="87" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
     </method>
     <method name="GetPersons" class="SampleDotNetCore2RestStub.Controllers.PersonController" excluded="false" instrumented="true" fullname="System.Collections.Generic.List`1&lt;SampleDotNetCore2RestStub.Models.Person&gt; SampleDotNetCore2RestStub.Controllers.PersonController::GetPersons()">
-      <seqpnt visitcount="2" line="34" column="13" endline="34" endcolumn="47" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
+      <seqpnt visitcount="3" line="34" column="13" endline="34" endcolumn="47" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
     </method>
     <method name="AddPerson" class="SampleDotNetCore2RestStub.Controllers.PersonController" excluded="false" instrumented="true" fullname="System.String SampleDotNetCore2RestStub.Controllers.PersonController::AddPerson(SampleDotNetCore2RestStub.Models.Person)">
       <seqpnt visitcount="0" line="40" column="13" endline="40" endcolumn="51" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Controllers/PersonController.cs" />
@@ -51,44 +51,44 @@
       <seqpnt visitcount="0" line="13" column="13" endline="13" endcolumn="51" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Exceptions/HttpException.cs" />
     </method>
     <method name=".ctor" class="SampleDotNetCore2RestStub.Middleware.HttpExceptionMiddleware" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Middleware.HttpExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
-      <seqpnt visitcount="6" line="12" column="9" endline="12" endcolumn="61" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
-      <seqpnt visitcount="6" line="14" column="13" endline="14" endcolumn="26" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
+      <seqpnt visitcount="9" line="12" column="9" endline="12" endcolumn="61" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
+      <seqpnt visitcount="9" line="14" column="13" endline="14" endcolumn="26" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
     </method>
     <method name="MoveNext" class="SampleDotNetCore2RestStub.Middleware.HttpExceptionMiddleware/&lt;Invoke&gt;d__2" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Middleware.HttpExceptionMiddleware/&lt;Invoke&gt;d__2::MoveNext()">
-      <seqpnt visitcount="6" line="21" column="17" endline="21" endcolumn="45" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
+      <seqpnt visitcount="9" line="21" column="17" endline="21" endcolumn="45" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="23" column="13" endline="23" endcolumn="48" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="25" column="17" endline="25" endcolumn="72" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="26" column="17" endline="26" endcolumn="76" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="27" column="17" endline="27" endcolumn="62" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
-      <seqpnt visitcount="6" line="21" column="17" endline="21" endcolumn="45" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
+      <seqpnt visitcount="9" line="21" column="17" endline="21" endcolumn="45" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="23" column="13" endline="23" endcolumn="48" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="25" column="17" endline="25" endcolumn="72" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="26" column="17" endline="26" endcolumn="76" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
       <seqpnt visitcount="0" line="27" column="17" endline="27" endcolumn="62" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Middleware/HttpExceptionMiddleware.cs" />
     </method>
     <method name="get_Id" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.Int32 SampleDotNetCore2RestStub.Models.Person::get_Id()">
-      <seqpnt visitcount="4" line="5" column="25" endline="5" endcolumn="29" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="6" line="5" column="25" endline="5" endcolumn="29" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="set_Id" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Models.Person::set_Id(System.Int32)">
-      <seqpnt visitcount="10" line="5" column="30" endline="5" endcolumn="34" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="15" line="5" column="30" endline="5" endcolumn="34" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="get_FirstName" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.String SampleDotNetCore2RestStub.Models.Person::get_FirstName()">
-      <seqpnt visitcount="4" line="6" column="35" endline="6" endcolumn="39" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="6" line="6" column="35" endline="6" endcolumn="39" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="set_FirstName" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Models.Person::set_FirstName(System.String)">
-      <seqpnt visitcount="10" line="6" column="40" endline="6" endcolumn="44" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="15" line="6" column="40" endline="6" endcolumn="44" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="get_LastName" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.String SampleDotNetCore2RestStub.Models.Person::get_LastName()">
-      <seqpnt visitcount="8" line="7" column="34" endline="7" endcolumn="38" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="12" line="7" column="34" endline="7" endcolumn="38" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="set_LastName" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Models.Person::set_LastName(System.String)">
-      <seqpnt visitcount="10" line="7" column="39" endline="7" endcolumn="43" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="15" line="7" column="39" endline="7" endcolumn="43" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="get_Email" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.String SampleDotNetCore2RestStub.Models.Person::get_Email()">
-      <seqpnt visitcount="4" line="8" column="31" endline="8" endcolumn="35" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="6" line="8" column="31" endline="8" endcolumn="35" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="set_Email" class="SampleDotNetCore2RestStub.Models.Person" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Models.Person::set_Email(System.String)">
-      <seqpnt visitcount="10" line="8" column="36" endline="8" endcolumn="40" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
+      <seqpnt visitcount="15" line="8" column="36" endline="8" endcolumn="40" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Models/Person.cs" />
     </method>
     <method name="Main" class="SampleDotNetCore2RestStub.Program" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Program::Main(System.String[])">
       <seqpnt visitcount="0" line="10" column="13" endline="12" endcolumn="26" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Program.cs" />
@@ -123,25 +123,25 @@
       <seqpnt visitcount="0" line="52" column="17" endline="52" endcolumn="60" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Repositories/PersonRepository.cs" />
     </method>
     <method name=".ctor" class="SampleDotNetCore2RestStub.Startup" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Startup::.ctor()">
-      <seqpnt visitcount="6" line="13" column="9" endline="13" endcolumn="25" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
-      <seqpnt visitcount="6" line="15" column="13" endline="17" endcolumn="44" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
-      <seqpnt visitcount="6" line="19" column="13" endline="19" endcolumn="58" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="13" column="9" endline="13" endcolumn="25" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="15" column="13" endline="17" endcolumn="44" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="19" column="13" endline="19" endcolumn="58" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
     </method>
     <method name="get_Configuration" class="SampleDotNetCore2RestStub.Startup" excluded="false" instrumented="true" fullname="Microsoft.Extensions.Configuration.IConfiguration SampleDotNetCore2RestStub.Startup::get_Configuration()">
-      <seqpnt visitcount="6" line="22" column="47" endline="22" endcolumn="51" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="22" column="47" endline="22" endcolumn="51" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
     </method>
     <method name="ConfigureServices" class="SampleDotNetCore2RestStub.Startup" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
-      <seqpnt visitcount="6" line="26" column="13" endline="26" endcolumn="31" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
-      <seqpnt visitcount="6" line="27" column="13" endline="27" endcolumn="58" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
-      <seqpnt visitcount="6" line="28" column="13" endline="28" endcolumn="65" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
-      <seqpnt visitcount="6" line="30" column="13" endline="30" endcolumn="45" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="26" column="13" endline="26" endcolumn="31" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="27" column="13" endline="27" endcolumn="58" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="28" column="13" endline="28" endcolumn="65" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="30" column="13" endline="30" endcolumn="45" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
     </method>
     <method name="ConfigureRepositories" class="SampleDotNetCore2RestStub.Startup" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Startup::ConfigureRepositories(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
       <seqpnt visitcount="0" line="35" column="13" endline="35" endcolumn="74" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
     </method>
     <method name="Configure" class="SampleDotNetCore2RestStub.Startup" excluded="false" instrumented="true" fullname="System.Void SampleDotNetCore2RestStub.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
-      <seqpnt visitcount="6" line="40" column="13" endline="40" endcolumn="58" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
-      <seqpnt visitcount="6" line="41" column="13" endline="41" endcolumn="26" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="40" column="13" endline="40" endcolumn="58" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
+      <seqpnt visitcount="9" line="41" column="13" endline="41" endcolumn="26" excluded="false" document="/Users/jome/projects/nedbank/testapp/src/SampleDotNetCore2RestStub/Startup.cs" />
     </method>
   </module>
 </coverage>
